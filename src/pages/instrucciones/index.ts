@@ -17,7 +17,7 @@ export function initInstructions(goTo) {
   style.innerHTML = `
   .titulo{
     color: var(--titulo-instrucciones);
-    font-size: 3em;
+    font-size: 40px;
     font-weight: 800;
     width: 300px;
     margin: 20px auto 20px auto;
@@ -26,7 +26,7 @@ export function initInstructions(goTo) {
   }
   @media (min-width: 769px) {
     .titulo {
-      font-size: 4em;
+      font-size: 50px;
       width: 500px;
       margin: 50px auto 50px auto;
     }

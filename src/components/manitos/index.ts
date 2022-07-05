@@ -54,16 +54,16 @@ export function initManitos() {
 
       @media (min-width: 769px) {
         .piedra {
-          height: 250px;
-          width: 150px;
+          height: 220px;
+          width: 130px;
         }
         .papel {
-          height: 250px;
-          width: 150px;
+          height: 220px;
+          width: 130px;
         }
         .tijera {
-          height: 250px;
-          width: 150px;
+          height: 220px;
+          width: 130px;
         }
       }
 
@@ -92,12 +92,12 @@ export function initManitos() {
       }
       @media (min-width: 769px) {
         .cpu-manito{
-          height: 350px;
-          width: 220px;
+          height: 280px;
+          width: 180px;
         }
         .player-manito{
-          height: 350px;
-          width: 220px;
+          height: 280px;
+          width: 180px;
         }
       }
       `;

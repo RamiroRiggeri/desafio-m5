@@ -29,7 +29,6 @@ customElements.define(
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 20px;
       }
       .score{
         margin: 0;

@@ -18,16 +18,16 @@ export function initWelcome(goTo) {
   style.innerHTML = `
   .titulo{
     color: var(--titulo-home);
-    font-size: 5em;
+    font-size: 70px ;
     font-weight: 800;
-    width: 280px;
+    width: 250px;
     margin: 20px auto 20px auto;
     text-align: center;
     height: 100%;
   }
   @media (min-width: 769px) {
     .titulo {
-      font-size: 7em;
+      font-size: 6em;
     }
   }
   .boton{

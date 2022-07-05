@@ -53,9 +53,9 @@ export function initStar() {
 
       @media (min-width: 769px) {
         .star {
-          font-size: 50px;
-          height: 300px;
-          width: 300px;
+          font-size: 40px;
+          height: 200px;
+          width: 200px;
         }
       }
 

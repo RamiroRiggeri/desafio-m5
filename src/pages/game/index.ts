@@ -22,7 +22,7 @@ export function initGame(goTo) {
   const style = document.createElement("style");
   style.innerHTML = `
   .contenedor-counter{
-    margin: 110px auto 0 auto;
+    margin: 70px auto 0 auto;
     display: flex;
     justify-content: center;
   }
