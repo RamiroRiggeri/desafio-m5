@@ -14,7 +14,7 @@ export function initGame(goTo) {
           </div>
           <div class="contenedor-manitos">
             <my-jugada item="${manopiedra}" id="piedra"></my-jugada>
-            <my-jugada item="${manotijera}" id="tijera" non-selected="false"></my-jugada>
+            <my-jugada item="${manotijera}" id="tijera"></my-jugada>
             <my-jugada item="${manopapel}" id="papel"></my-jugada>
           </div>
         </div>
@@ -22,7 +22,7 @@ export function initGame(goTo) {
   const style = document.createElement("style");
   style.innerHTML = `
   .contenedor-counter{
-    margin: 150px auto 0 auto;
+    margin: 110px auto 0 auto;
     display: flex;
     justify-content: center;
   }
@@ -34,7 +34,7 @@ export function initGame(goTo) {
     right: 0;
     bottom: 0px;
     width: 100%;
-    max-width: 1000px;
+    max-width: 800px;
     height: 30%;
     display: flex;
     justify-content: space-around;

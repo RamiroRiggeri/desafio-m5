@@ -35,16 +35,11 @@ export function initScoresPage(goTo) {
   .contenedor-contenido{
     display: flex;
     flex-direction: column;
-    gap: 20px;
     justify-content: center;
-  }
-  .star{
-    margin: 30px auto 0 auto;
   }
   .boton{
     width: 100%;
-    height: 85px;
-    margin: 70px auto 0 auto;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
   }

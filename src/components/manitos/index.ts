@@ -28,17 +28,18 @@ export function initManitos() {
         left: 30px;
         background-image: url(${imagePiedraURL});
         background-size: cover;
-        height: 13em;
-        width: 125px;
+        height: 170px;
+        width: 100px;
         cursor: pointer;
       }
+
       .papel{
         bottom: 0px;
         right: 30px;
         background-image: url(${imagePapelURL});
         background-size: cover;
-        height: 13em;
-        width: 125px;
+        height: 170px;
+        width: 100px;
         cursor: pointer;
       }
       .tijera{
@@ -46,14 +47,30 @@ export function initManitos() {
         left: 180px;
         background-image: url(${imageTijeraURL});
         background-size: cover;
-        height: 13em;
-        width: 125px;
+        height: 170px;
+        width: 100px;
         cursor: pointer;
       }
+
+      @media (min-width: 769px) {
+        .piedra {
+          height: 250px;
+          width: 150px;
+        }
+        .papel {
+          height: 250px;
+          width: 150px;
+        }
+        .tijera {
+          height: 250px;
+          width: 150px;
+        }
+      }
+
       .cpu-manito{
         position: absolute;
-        height: 35vh;
-        width: 180px;
+        height: 40vh;
+        width: 150px;
         top: 0px;
         transform: rotate(180deg);
         cursor: not-allowed;
@@ -63,8 +80,8 @@ export function initManitos() {
         right: 0;
       }
       .player-manito{
-        height: 35vh;
-        width: 180px;
+        height: 40vh;
+        width: 150px;
         cursor: not-allowed;
         position: absolute;
         margin-left: auto;
@@ -72,6 +89,16 @@ export function initManitos() {
         left: 0;
         right: 0;
         bottom: 0px;
+      }
+      @media (min-width: 769px) {
+        .cpu-manito{
+          height: 35vh;
+          width: 180px;
+        }
+        .player-manito{
+          height: 35vh;
+          width: 180px;
+        }
       }
       `;
       shadow.appendChild(div);

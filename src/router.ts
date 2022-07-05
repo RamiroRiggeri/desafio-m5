@@ -36,7 +36,7 @@ export function initRouter(divRoot: Element) {
       }
     }
   }
-  if (location.pathname == "/") {
+  if (location.pathname == "/desafio-m5/" || "/") {
     goTo("/welcome");
   } else {
     handleRoute(location.pathname);

@@ -17,21 +17,26 @@ export function initInstructions(goTo) {
   style.innerHTML = `
   .titulo{
     color: var(--titulo-instrucciones);
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 800;
-    min-width: 350px;
-    max-width: 400px;
-    margin: 50px auto 0 auto;
-    padding:0;
+    width: 300px;
+    margin: 20px auto 20px auto;
     text-align: center;
-    height: 400px;
+    height: 100%;
+  }
+  @media (min-width: 769px) {
+    .titulo {
+      font-size: 4em;
+      width: 500px;
+      margin: 50px auto 50px auto;
+    }
   }
   .boton{
     width: 100%;
     height: 85px;
-    margin: 30px auto 0 auto;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
   .contenedor-manitos{
     position: absolute;
@@ -41,7 +46,7 @@ export function initInstructions(goTo) {
     right: 0;
     bottom: 0px;
     width: 100%;
-    max-width: 1000px;
+    max-width: 800px;
     height: 30%;
     display: flex;
     justify-content: space-around;

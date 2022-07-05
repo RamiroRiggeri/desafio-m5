@@ -30,11 +30,11 @@ export function initStar() {
       const style = document.createElement("style");
       style.innerHTML = `
       .star{
-        font-size: 55px;
+        font-size: 45px;
         color: black;
-        height: 300px;
-        width: 300px;
-        margin: 30px auto 0 auto;
+        height: 200px;
+        width: 200px;
+        margin: 20px auto;
         display: flex;
         align-items: center;
         justify-content: center;
