@@ -20,7 +20,7 @@ export function initWelcome(goTo) {
     color: var(--titulo-home);
     font-size: 5em;
     font-weight: 800;
-    width: 300px;
+    width: 280px;
     margin: 20px auto 20px auto;
     text-align: center;
     height: 100%;
