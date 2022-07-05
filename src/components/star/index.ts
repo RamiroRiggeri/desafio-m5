@@ -30,11 +30,11 @@ export function initStar() {
       const style = document.createElement("style");
       style.innerHTML = `
       .star{
-        font-size: 45px;
+        font-size: 38px;
         color: black;
-        height: 200px;
-        width: 200px;
-        margin: 20px auto;
+        height: 180px;
+        width: 180px;
+        margin: 15px auto;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -50,6 +50,15 @@ export function initStar() {
         background-repeat: no-repeat;
         color: white;
       }
+
+      @media (min-width: 769px) {
+        .star {
+          font-size: 50px;
+          height: 300px;
+          width: 300px;
+        }
+      }
+
       `;
       shadow.appendChild(div);
       shadow.appendChild(style);

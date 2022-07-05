@@ -43,6 +43,7 @@ export function initScoresPage(goTo) {
     display: flex;
     justify-content: center;
   }
+
   `;
   div.appendChild(style);
 

@@ -20,11 +20,11 @@ customElements.define(
       .contenedor{
         background-color: white;
         height: 250px;
-        width: 50%;
+        width: 300px;
         margin: 0 auto;
         border: solid 10px black;
         border-radius: 10px;
-        max-width: 300px;
+        max-width: 400px;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -69,7 +69,7 @@ export function initManitos() {
 
       .cpu-manito{
         position: absolute;
-        height: 40vh;
+        height: 250px;
         width: 150px;
         top: 0px;
         transform: rotate(180deg);
@@ -80,7 +80,7 @@ export function initManitos() {
         right: 0;
       }
       .player-manito{
-        height: 40vh;
+        height: 250px;
         width: 150px;
         cursor: not-allowed;
         position: absolute;
@@ -92,12 +92,12 @@ export function initManitos() {
       }
       @media (min-width: 769px) {
         .cpu-manito{
-          height: 35vh;
-          width: 180px;
+          height: 350px;
+          width: 220px;
         }
         .player-manito{
-          height: 35vh;
-          width: 180px;
+          height: 350px;
+          width: 220px;
         }
       }
       `;

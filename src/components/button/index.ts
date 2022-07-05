@@ -22,7 +22,7 @@ export function initBtnPpt() {
         border-radius: 8px;
         padding: 10px;
         width: 90vw;
-        max-width: 450px;
+        max-width: 300px;
         height: 90px;
         font-family: "Odibee Sans", cursive;
         cursor: pointer;
