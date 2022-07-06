@@ -67,6 +67,21 @@ export function initManitos() {
         }
       }
 
+      @media (max-height: 700px) {
+        .piedra {
+          height: 150px;
+          width: 80px;
+        }
+        .papel {
+          height: 150px;
+          width: 80px;
+        }
+        .tijera {
+          height: 150px;
+          width: 80px;
+        }
+      }
+
       .cpu-manito{
         position: absolute;
         height: 250px;

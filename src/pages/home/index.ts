@@ -30,6 +30,13 @@ export function initWelcome(goTo) {
       font-size: 6em;
     }
   }
+  @media (max-height: 700px){
+    .titulo {
+      font-size: 4em;
+    }
+  }
+
+
   .boton{
     width: 100%;
     height: 85px;
