@@ -31,6 +31,11 @@ export function initInstructions(goTo) {
       margin: 50px auto 50px auto;
     }
   }
+  @media (max-height: 700px){
+    .titulo {
+      font-size: 4em;
+    }
+  }
   .boton{
     width: 100%;
     height: 85px;
