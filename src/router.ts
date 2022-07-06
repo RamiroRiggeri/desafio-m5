@@ -36,8 +36,16 @@ export function initRouter(divRoot: Element) {
       }
     }
   }
-  if (location.pathname == "/desafio-m5/" || "/") {
+  if (location.pathname == "/desafio-m5/" || "/" || "/welcome") {
     goTo("/welcome");
+  } else if (location.pathname == "/instrucciones") {
+    goTo("/instrucciones");
+  } else if (location.pathname == "/game") {
+    goTo("/game");
+  } else if (location.pathname == "/result") {
+    goTo("/result");
+  } else if (location.pathname == "/scores-page") {
+    goTo("/scores-page");
   } else {
     handleRoute(location.pathname);
   }
